@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FullCRUDFirebase</string>
+    <string-array name="product_name">
+        <item>Mobile Application</item>
+        <item>Web Application</item>
+        <item>Embedded System</item>
+        <item>Graphic Design</item>
+        <item>AutoMation(AI)</item>
+        <item>Tutorials</item>
+    </string-array>
+    <string-array name="product_value">
+        <item>Mobile</item>
+        <item>Web</item>
+        <item>Embedded</item>
+        <item>Graphic</item>
+        <item>AutoMation</item>
+        <item>Tutorials</item>
+    </string-array>
+</resources>

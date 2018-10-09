@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="notifyPreference"
+        android:title="Notification"
+        android:summary="Show notification when have newer"
+        android:defaultValue="Alert"/>
+    <CheckBoxPreference
+        android:key="autoUpdatePreference"
+        android:title="Auto Update"
+        android:summary="Update value when change data"
+        android:defaultValue="AUTO"/>
+    <ListPreference
+        android:key="ProjectListPreference"
+        android:title="Projects List"
+        android:summary="Our project in current"
+        android:entries="@array/product_name"
+        android:entryValues="@array/product_value"
+        android:defaultValue="Mobile"/>
+    <PreferenceScreen
+        android:key="moreSetting"
+        android:title="More Setting">
+        <EditTextPreference
+            android:key="FontColorPreference"
+            android:title="Font Color"
+            android:summary="You can change font color here"
+            android:defaultValue="Alert"/>
+        <PreferenceCategory android:title="Dev By">
+            <CheckBoxPreference
+                android:key="KraiponnPreference"
+                android:title="KRAIPON-NA"
+                android:summary="Developer Name: Kraipon Najaroon"
+                android:defaultValue="KRAIPON-NA"/>
+            <CheckBoxPreference
+                android:key="SawitreenPreference"
+                android:title="SAWITREE-NA"
+                android:summary="Developer Name: Sawitree Najaroon"
+                android:defaultValue="SAWITREE-NA"/>
+            <CheckBoxPreference
+                android:key="SirisakPreference"
+                android:title="SIRISAK-SA"
+                android:summary="Developer Name: SIRISAK SARAPOL"
+                android:defaultValue="SIRISAK-SA"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
+</PreferenceScreen>
